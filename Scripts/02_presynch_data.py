@@ -33,25 +33,25 @@ if __name__ == '__main__':
     # Movement
     ## Polar
     df_polar_move_acc = pd.read_csv('Data/01_unified_data/ruch/polar_acc.csv')
-    procesing_using_hilbert(df_polar_move_acc, WINDOW_SIZE_POLAR).to_csv('Data/02_presynch_data/ruch/polar_acc_preprocessed.csv', index=False)
+    procesing_using_hilbert(df_polar_move_acc, WINDOW_SIZE_POLAR).to_csv('Data/02_presynch_data/ruch/polar_acc.csv', index=False)
 
     ## Empatica
     df_empatica_move_acc = pd.read_csv('Data/01_unified_data/ruch/empatica_acc.csv')
-    procesing_using_hilbert(df_empatica_move_acc, WINDOW_SIZE_EMPATICA).to_csv('Data/02_presynch_data/ruch/empatica_acc_preprocessed.csv', index=False)
+    procesing_using_hilbert(df_empatica_move_acc, WINDOW_SIZE_EMPATICA).to_csv('Data/02_presynch_data/ruch/empatica_acc.csv', index=False)
 
     ## Samsung
     df_samsung_move_acc = pd.read_csv('Data/01_unified_data/ruch/samsung_acc.csv')
-    procesing_using_hilbert(df_samsung_move_acc, WINDOW_SIZE_SAMSUNG).to_csv('Data/02_presynch_data/ruch/samsung_acc_preprocessed.csv', index=False)
+    procesing_using_hilbert(df_samsung_move_acc, WINDOW_SIZE_SAMSUNG).to_csv('Data/02_presynch_data/ruch/samsung_acc.csv', index=False)
 
     # Sitting
     ## Polar
     df_polar_sit_acc = pd.read_csv('Data/01_unified_data/siedzaco/polar_acc.csv')
-    procesing_using_hilbert(df_polar_sit_acc, WINDOW_SIZE_POLAR).to_csv('Data/02_presynch_data/siedzaco/polar_acc_preprocessed.csv', index=False)
+    procesing_using_hilbert(df_polar_sit_acc, WINDOW_SIZE_POLAR).to_csv('Data/02_presynch_data/siedzaco/polar_acc.csv', index=False)
 
     ## Empatica
     df_empatica_sit_acc = pd.read_csv('Data/01_unified_data/siedzaco/empatica_acc.csv')
-    procesing_using_hilbert(df_empatica_sit_acc, WINDOW_SIZE_EMPATICA).to_csv('Data/02_presynch_data/siedzaco/empatica_acc_preprocessed.csv', index=False)
+    procesing_using_hilbert(df_empatica_sit_acc, WINDOW_SIZE_EMPATICA).to_csv('Data/02_presynch_data/siedzaco/empatica_acc.csv', index=False)
 
     ## Samsung
     df_samsung_sit_acc = pd.read_csv('Data/01_unified_data/siedzaco/samsung_acc.csv')
-    procesing_using_hilbert(df_samsung_sit_acc, WINDOW_SIZE_SAMSUNG).to_csv('Data/02_presynch_data/siedzaco/samsung_acc_preprocessed.csv', index=False)
+    procesing_using_hilbert(df_samsung_sit_acc, WINDOW_SIZE_SAMSUNG).to_csv('Data/02_presynch_data/siedzaco/samsung_acc.csv', index=False)
